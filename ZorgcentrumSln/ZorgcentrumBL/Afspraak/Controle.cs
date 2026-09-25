@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ZorgcentrumBL {
-    public class Afspraak {
+namespace ZorgcentrumBL.Afspraak {
+    public class Controle : Afspraak {
     }
 }
