@@ -1,4 +1,4 @@
-﻿namespace WinkelkarProject.Domein.Producten;
+﻿namespace WinkelkarSln.BL.Producten;
 
 public enum Nutriscore
 {

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.Design;
 using WinkelkarProject.BuildingBlocks.Results;
 
-namespace WinkelkarProject.Domein.Producten;
+namespace WinkelkarSln.BL.Producten;
 
 public class VoedingsProduct : Product
 {

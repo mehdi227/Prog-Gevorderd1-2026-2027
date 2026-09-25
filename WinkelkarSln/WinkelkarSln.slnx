@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/00-BuildingBlocks/">
+    <Project Path="WinkelkarSln.BuildingBlocks/WinkelkarSln.BuildingBlocks.csproj" />
+  </Folder>
   <Folder Name="/03-BL/">
     <Project Path="WinkelkarSln.BL/WinkelkarSln.BL.csproj" />
   </Folder>

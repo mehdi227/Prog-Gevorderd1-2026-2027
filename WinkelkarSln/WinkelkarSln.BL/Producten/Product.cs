@@ -1,6 +1,6 @@
 ﻿using WinkelkarProject.BuildingBlocks.Results;
 
-namespace WinkelkarProject.Domein.Producten;
+namespace WinkelkarSln.BL.Producten;
 
 public abstract class Product : IComparable<Product>
 {
