@@ -18,16 +18,16 @@ public class Afdeling {
     }
 
 
-    private List<Arts> _artsen;
+    private HashSet<Arts> _artsen;
 
-    public List<Arts> Artsen {
+    public HashSet<Arts> Artsen {
         get { return _artsen; }
         set { _artsen = value; }
     }
 
-    private List<Patient> _patienten;
+    private HashSet<Patient> _patienten;
 
-    public List<Patient> Patienten {
+    public HashSet<Patient> Patienten {
         get { return _patienten; }
         set { _patienten = value; }
     }

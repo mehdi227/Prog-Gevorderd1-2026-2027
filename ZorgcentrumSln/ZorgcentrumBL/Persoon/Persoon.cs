@@ -2,11 +2,11 @@
 
 public abstract class Persoon {
 
-    protected Persoon(string rijksRegisterNr, string naam, string voorNaam, Afdeling afdeling) {
+    protected Persoon(string rijksRegisterNr, string naam, string voorNaam, HashSet<Afdeling> afdelingen) {
         RijksRegisterNr = rijksRegisterNr;
         Naam = naam;
         VoorNaam = voorNaam;
-        Afdeling = afdeling;
+        Afdelingen = afdelingen;
     }
 
     private string _rijksRegisterNr;
@@ -30,11 +30,11 @@ public abstract class Persoon {
         set { _voorNaam = value; }
     }
 
-    private Afdeling _afdeling;
+    private HashSet<Afdeling> _afdelingen;
 
-    public Afdeling Afdeling {
-        get { return _afdeling; }
-        set { _afdeling = value; }
+    public HashSet<Afdeling> Afdelingen {
+        get { return _afdelingen; }
+        set { _afdelingen = value; }
     }
 
 }
