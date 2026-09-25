@@ -18,12 +18,12 @@ namespace Winkelkar {
             Console.WriteLine($"De prijs van {product3.Omschrijving} zonder korting is {product3.GeefPrijsZonderKorting()}");
             Console.WriteLine($"De prijs van {product3.Omschrijving} met korting is {prijsMetKorting3}");
 
-            VoedingsProduct product4 = new("Peer", 100, Nutriscore.D);
+            VoedingsProduct product4 = new("Oreo", 100, Nutriscore.D);
             double prijsMetKorting4= product4.GeefPrijsMetKorting();
             Console.WriteLine($"De prijs van {product4.Omschrijving} zonder korting is {product4.GeefPrijsZonderKorting()}");
             Console.WriteLine($"De prijs van {product4.Omschrijving} met korting is {prijsMetKorting4}");
 
-            VoedingsProduct product5 = new("Peer", 100, Nutriscore.E);
+            VoedingsProduct product5 = new("Pizza", 100, Nutriscore.E);
             double prijsMetKorting5 = product5.GeefPrijsMetKorting();
             Console.WriteLine($"De prijs van {product5.Omschrijving} zonder korting is {product5.GeefPrijsZonderKorting()}");
             Console.WriteLine($"De prijs van {product5.Omschrijving} met korting is {prijsMetKorting5}");
